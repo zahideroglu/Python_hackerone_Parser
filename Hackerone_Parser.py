@@ -104,51 +104,14 @@ while True:
 
 		print('\n')
 
-    
- #   print("Usernames: ")
- #   for node in i['node']["voters"]["edges"]:
- #       print("\t" + node["node"]["user"]["username"])
-    
-		
- # print("Handle: " + i['node']['team']['handle'])
-       #for node in i['node']["team"]["handle"]:
-       #    print("\t" +  node["team"]["handle"])
-
-        
-
 
 
 	endCursor = data['data']['hacktivity_items']['pageInfo']['endCursor']
 
-
-
-
-
-
-#print(response.text) çalıştı
-
-
-
-
-"""
 df=pd.json_normalize(data, max_level=1)
 df.to_csv('sonuc.csv')
 
-
-
-
-
 response = requests.post(url, headers=headers, cookies=cookies, json=jsonn)
-"""
-
-
-
-
-#print('Status code: ', response.status_code) çalıştı
-
-
-#print(response.text) çalıştı
-
 
 
 
